@@ -2,12 +2,11 @@ package edu.co.icesi.introspringboot.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Table;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-@Table
+@Embeddable
 public class PlayerClubId implements Serializable {
 
     @Column(name = "player_id")

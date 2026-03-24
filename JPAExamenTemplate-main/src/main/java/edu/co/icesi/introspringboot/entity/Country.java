@@ -22,8 +22,8 @@ public class Country {
     private List<Match> homeMatches;
 
     @JsonIgnore
-    @ManyToOne
-    private Match awayMatches;
+    @OneToMany(mappedBy = "awayCountry")
+    private List<Match> awayMatches;
 
     @JsonIgnore
     @OneToMany(mappedBy = "country")
@@ -57,8 +57,8 @@ public class Country {
     public List<Match> getHomeMatches() { return homeMatches; }
     public void setHomeMatches(List<Match> homeMatches) { this.homeMatches = homeMatches; }
 
-    public Match getAwayMatches() { return awayMatches; }
-    public void setAwayMatches(Match awayMatches) { this.awayMatches = awayMatches; }
+    public List<Match> getAwayMatches() { return awayMatches; }
+    public void setAwayMatches(List<Match> awayMatches) { this.awayMatches = awayMatches; }
 
     public List<Player> getPlayers() { return players; }
     public void setPlayers(List<Player> players) { this.players = players; }

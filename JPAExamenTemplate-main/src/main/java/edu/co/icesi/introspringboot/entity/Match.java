@@ -3,7 +3,6 @@ package edu.co.icesi.introspringboot.entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Entity
 @Table(name = "match_game")
@@ -20,15 +19,16 @@ public class Match {
     @JoinColumn(name = "home_country_id")
     private Country homeCountry;
 
-    @OneToMany
-    private List<Country> awayCountry;
+    @ManyToOne
+    @JoinColumn(name = "away_country_id")
+    private Country awayCountry;
 
     private String stadium;
 
     public Match() {
     }
 
-    public Match(LocalDate matchDate, Country homeCountry, List<Country> awayCountry, String stadium) {
+    public Match(LocalDate matchDate, Country homeCountry, Country awayCountry, String stadium) {
         this.matchDate = matchDate;
         this.homeCountry = homeCountry;
         this.awayCountry = awayCountry;
@@ -44,8 +44,8 @@ public class Match {
     public Country getHomeCountry() { return homeCountry; }
     public void setHomeCountry(Country homeCountry) { this.homeCountry = homeCountry; }
 
-    public List<Country> getAwayCountry() { return awayCountry; }
-    public void setAwayCountry(List<Country> awayCountry) { this.awayCountry = awayCountry; }
+    public Country getAwayCountry() { return awayCountry; }
+    public void setAwayCountry(Country awayCountry) { this.awayCountry = awayCountry; }
 
     public String getStadium() { return stadium; }
     public void setStadium(String stadium) { this.stadium = stadium; }

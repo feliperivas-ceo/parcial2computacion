@@ -23,7 +23,7 @@ public class Club {
     private Country country;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "playerClub")
+    @OneToMany(mappedBy = "club")
     private List<PlayerClub> playerClubs;
 
     public Club() {
