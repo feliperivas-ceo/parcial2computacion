@@ -9,8 +9,9 @@ import java.util.List;
 @Repository
 public interface ClubRepository extends CrudRepository<Club, Integer> {
 
-    /**
-
-     */
-    List<Club> findDistinctByPlayerClubs_Player_Country_HomeMatches_IdOrPlayerClubs_Player_Country_AwayMatches_Id(Integer matchId, Integer matchIdAgain);
+    List<Club> findDistinctByPlayerClubs_EndDateIsNullAndPlayerClubs_Player_Country_HomeMatches_IdOrPlayerClubs_EndDateIsNullAndPlayerClubs_Player_Country_AwayMatches_Id(
+            Integer homeMatchId,
+            Integer awayMatchId
+    );
 }
+
