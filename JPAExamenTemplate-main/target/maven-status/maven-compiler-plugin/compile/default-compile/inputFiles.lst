@@ -1,0 +1,14 @@
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/IntroSpringBootApplication.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/ServletInitializer.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/controller/WorldCupController.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/Club.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/Country.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/Match.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/Player.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/PlayerClub.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/entity/PlayerClubId.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/repository/ClubRepository.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/repository/CountryRepository.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/repository/MatchRepository.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/repository/PlayerClubRepository.java
+/home/computacion2/parcial2Compunet/JPAExamenTemplate-main/src/main/java/edu/co/icesi/introspringboot/repository/PlayerRepository.java

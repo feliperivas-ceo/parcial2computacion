@@ -1,0 +1,11 @@
+edu/co/icesi/introspringboot/repository/CountryRepository.class
+edu/co/icesi/introspringboot/repository/PlayerRepository.class
+edu/co/icesi/introspringboot/entity/Club.class
+edu/co/icesi/introspringboot/entity/Player.class
+edu/co/icesi/introspringboot/controller/WorldCupController.class
+edu/co/icesi/introspringboot/IntroSpringBootApplication.class
+edu/co/icesi/introspringboot/repository/MatchRepository.class
+edu/co/icesi/introspringboot/repository/ClubRepository.class
+edu/co/icesi/introspringboot/entity/Country.class
+edu/co/icesi/introspringboot/entity/Match.class
+edu/co/icesi/introspringboot/ServletInitializer.class
